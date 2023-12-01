@@ -39,6 +39,7 @@ int main()
 
             if (direcionado == 1)
             {
+                
                 grafo->setDirecionado(true);
             }
             else if (direcionado == 2)

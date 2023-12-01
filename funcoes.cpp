@@ -167,6 +167,7 @@ public:
             if (!direcionado)
             {
                 matriz[destino][origem] = peso;
+                quantidadeArestas += 1;
             }
             quantidadeArestas++;
         }
